@@ -39,7 +39,7 @@ def load_data_optimized():
                       None si ocurre un error al cargar los datos.
     """
     try:
-        df = pd.read_csv("Planta.csv")
+        df = pd.read_csv("D:\Python\Planta.csv")
 
         # Lista de columnas monetarias
         monetary_columns = [
